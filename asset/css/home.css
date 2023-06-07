@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    background-color: gray;
+}
+#heading{
+         text-align: center;
+}
+
+.main-box{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    background-color: white;
+    /* text-align: center; */
+}
+.form-box{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.descriptionbox input{
+    width: 100%;
+    /* padding: 20px; */
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+   
+}
+.descriptionbox input:focus{
+   
+    border-bottom: 2px solid black;
+    outline: none;
+   
+}
+
+
+.discriptionbox{
+    width: 100%;
+}
+
+.cat-date{
+    width:100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    /* background-color: aqua; */
+}
+.cat{
+    width: 50%;
+    height: 80px;
+   
+}
+.cat select{
+    margin-top: 7px;
+    width: 70%;
+    height: 50px;
+}
+.date{
+    width: 50%;
+}
+.date input{
+    margin-top: 7px;
+    width: 70%;
+    height: 50px;
+}
+label{
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+/* submit button */
+
+.submitbutton{
+    text-align: center;
+    margin-top: 20px;
+}
+.submitbutton button{
+    padding: 20px;
+    width: 140px;
+    background-color:black;
+    color: white;
+}
+
+/* info from db */
+.displayinfo{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.details{
+    width: 80%;
+}
+#delete-button button{
+    padding: 20px;
+    width: 140px;
+    background-color:red;
+    color: white;
+
+}
+
+.list ul li{
+    list-style: none;
+}
