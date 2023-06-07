@@ -20,9 +20,9 @@ module.exports.addtodo=function(req,res){
     // return res.redirect('back')
    
     //  });
-    console.log(req.body.work);
-    console.log(req.body.Category);
-    console.log(req.body.date);
+    // console.log(req.body.work);
+    // console.log(req.body.Category);
+    // console.log(req.body.date);
     todo.create({
         work:req.body.work,
         category:req.body.Category,
